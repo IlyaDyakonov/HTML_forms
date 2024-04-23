@@ -2,6 +2,7 @@
     height: 50vh;
     width: 50vh;
     margin: 0 auto;
+    position: relative;
     display: flex;
     align-items: center;
 }
@@ -14,6 +15,7 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
     font-size: 20px;
+    position: relative;
 }
 
 .button:hover {
@@ -22,8 +24,8 @@
 
 .tooltip {
     position: absolute;
+    left: 21%;
     bottom: 78%;
-    left: 12%;
     width: 515px;
     height: 85px;
     transform: translate(-50%, -110%);
