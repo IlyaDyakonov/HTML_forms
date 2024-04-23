@@ -36,12 +36,12 @@ export default class Tooltip {
         // const buttonCenterY = top + height / 2;
         // const buttonCenterX = right + width / 2;
 
-        // Располагаем тултип по горизонтали по центру кнопки
+        // // Располагаем тултип по горизонтали по центру кнопки
         // this.tooltipElem.style.left = `${buttonCenterY - tooltipHeight / 2}px`;
-        // this.tooltipElem.style.left = `21%`;
-        // Располагаем тултип по вертикали по центру кнопки
+        // // this.tooltipElem.style.left = `21%`;
+        // // Располагаем тултип по вертикали по центру кнопки
         // this.tooltipElem.style.bottom = `${buttonCenterX + tooltipWidth / 2 - 35}px`;
-        // this.tooltipElem.style.bottom = `79%`;
+        // // this.tooltipElem.style.bottom = `79%`;
     }
 
     showTooltip() {

@@ -24,11 +24,11 @@
 
 .tooltip {
     position: absolute;
-    left: 21%;
-    bottom: 78%;
+    /* left: 21%; */
+    /* bottom: 78%; */
     width: 515px;
     height: 85px;
-    transform: translate(-50%, -110%);
+    transform: translate(-23%, -115%);
     color: black;
     border: 1px solid #8d8d8d;
     border-radius: 15px;
