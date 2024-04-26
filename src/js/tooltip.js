@@ -28,7 +28,7 @@ export default class Tooltip {
         });
 
         // ниже идёт расположение тултипа
-        // const { top, width, height, right } = button.getBoundingClientRect();
+        const { top, width, height, right } = button.getBoundingClientRect();
 
         // const tooltipHeight= this.tooltipElem.offsetHeight;
         // const tooltipWidth = this.tooltipElem.offsetWidth;
@@ -38,10 +38,10 @@ export default class Tooltip {
 
         // // Располагаем тултип по горизонтали по центру кнопки
         // this.tooltipElem.style.left = `${buttonCenterY - tooltipHeight / 2}px`;
-        // // this.tooltipElem.style.left = `21%`;
+        this.tooltipElem.style.left = `3%`;
         // // Располагаем тултип по вертикали по центру кнопки
         // this.tooltipElem.style.bottom = `${buttonCenterX + tooltipWidth / 2 - 35}px`;
-        // // this.tooltipElem.style.bottom = `79%`;
+        this.tooltipElem.style.bottom = `41%`;
     }
 
     showTooltip() {
